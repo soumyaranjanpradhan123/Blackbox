@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" href="./assets/hot.png" type="image/x-icon">
+</head>
+<body>
+    <div class="dashboard">
+
+        <div class="card">
+            <img src="./assets/hot.png" alt="Temperature logo" class="card-logo">
+            <div class="card-content">
+                <h3>Temperature</h3>
+                <p id="temperature-value">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/humidity.png" alt="Humidity logo" class="card-logo">
+            <div class="card-content">
+                <h3>Humidity</h3>
+                <p id="humidity-value">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/air.png" alt="Pressure logo" class="card-logo">
+            <div class="card-content">
+                <h3>Pressure</h3>
+                <p id="pressure-value">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/molecular.png" alt="TVOC logo" class="card-logo">
+            <div class="card-content">
+                <h3>TVOC</h3>
+                <p id="tvoc">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/c02.png" alt="eCO2" class="card-logo">
+            <div class="card-content">
+                <h3>eCO2</h3>
+                <p id="co2">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/aqi.png" alt="aqi" class="card-logo">
+            <div class="card-content">
+                <h3>AQI</h3>
+                <p id="aqi">--</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./assets/power.png" alt="Pressure logo" class="card-logo">
+            <div class="card-content">
+                <h3>Battery</h3>
+                <p id="battery">--</p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+
+
+    </div>
+
+    <footer id="footer">
+        Last refreshed: <span id="last-refreshed">--</span>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
